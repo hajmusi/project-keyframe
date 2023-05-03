@@ -1,0 +1,122 @@
+/* start keyfram my best  */
+@keyframes mybest {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+    transform: none;
+  }
+
+  3% {
+    background-color: rgb(243, 16, 16);
+    border-radius: 0;
+    transform: none;
+  }
+  4% {
+    background-color: blue;
+    border-radius: 0;
+    transform: none;
+  }
+  20% {
+    background-color: rgb(10, 48, 221);
+    border-radius: 0;
+    transform: none;
+  }
+
+  25% {
+    background-color: rgb(18, 32, 224);
+    left: 400px;
+    top: 0px;
+    border-radius: 500px;
+    transform: none;
+  }
+  26% {
+    background-color: blue;
+    border-radius: 500px;
+    transform: none;
+  }
+  28% {
+    background-color: green;
+    border-radius: 0px;
+    transform: none;
+  }
+  49% {
+    background-color: green;
+    border-radius: 0;
+    transform: none;
+  }
+  50% {
+    background-color: rgb(60, 216, 21);
+    left: 400px;
+    top: 400px;
+
+    border-radius: 0;
+  }
+  55% {
+    left: 350px;
+    top: 350px;
+    border-radius: 0;
+    transform: rotate(2turn);
+  }
+  65% {
+    top: 400px;
+    left: 300px;
+    border-radius: 0;
+    transform: rotate(1turn);
+  }
+  69% {
+    left: 250px;
+    top: 350px;
+    border-radius: 0;
+  }
+
+  74% {
+    left: 0px;
+    top: 400px;
+    border-radius: 50%;
+  }
+
+  75% {
+    background-color: rgb(211, 214, 12);
+    left: 0px;
+    top: 400px;
+    transform: none;
+    border-radius: 50%;
+  }
+
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+    transform: none;
+  }
+}
+/* end key frame my best */
+
+/* start container */
+.container {
+  background-image: url(images/back4.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 500px;
+  height: 500px;
+  border: 5px solid rgb(255, 9, 9);
+  box-shadow: 3px 3px 100px black;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+/* end container */
+/* start main */
+.main {
+  width: 100px;
+  height: 100px;
+  box-shadow: 3px 3px 100px rgb(255, 255, 255);
+  position: relative;
+}
+.container:hover > .main {
+  animation-name: mybest;
+  animation-duration: 10s;
+  animation-iteration-count: 3;
+}
+/* end main */
